@@ -1,0 +1,95 @@
+/* основні стилі */
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* клас для зменшення розміру окремого текста */
+.smaller-text {
+    font-size: 12px;
+}
+
+/* верхній блок */
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.text-content h1 {
+    font-size: 32px;
+}
+/* клас для збільшення розміру окремого текста та його жирність */
+.bold {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* основний контент */
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+/* поділ на два блоки, один з яких буде зліва інший праворучч */
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+/* перший блок */
+.left-column {
+    width: 40%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+/* другий блок */
+.right-column {
+    width: 55%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+/* списки інформації */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
